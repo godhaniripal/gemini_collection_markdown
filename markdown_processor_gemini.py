@@ -37,7 +37,11 @@ Please format the content using this exact structure:
   "component_name": "[main component name]",
   "category": "[category - e.g., forms, animation, ui, visualization, effects]",
   "type": "[type - e.g., react, function, class, hook, utility, shader]",
-  "features": ["[feature1]", "[feature2]", "[feature3]"]
+  "features": ["[feature1]", "[feature2]", "[feature3]"],
+  "use_cases": ["[use-case1]", "[use-case2]", "[use-case3]"],
+  "app_types": ["SaaS", "portfolio", "blog", "documentation", "admin-panel"],
+  "page_types": ["hero-section", "pricing", "about", "contact", "product-showcase"],
+  "layout_contexts": ["header", "sidebar", "footer", "main-content", "modal"]
 }}
 ```
 
