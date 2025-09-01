@@ -30,6 +30,17 @@ Your task is to reorganize the provided content into a structured template while
 
 Please format the content using this exact structure:
 
+## Metadata
+```json
+{{
+  "library": "[library/framework name - e.g., sera-ui, react-three-fiber, three.js]",
+  "component_name": "[main component name]",
+  "category": "[category - e.g., forms, animation, ui, visualization, effects]",
+  "type": "[type - e.g., react, function, class, hook, utility, shader]",
+  "features": ["[feature1]", "[feature2]", "[feature3]"]
+}}
+```
+
 # Component Name
 [Extract the main component/library name from the content]
 
@@ -67,6 +78,7 @@ Please format the content using this exact structure:
 [Extract key technical terms for search: component names, framework terms, concepts, methods]
 
 Important guidelines:
+- Extract accurate metadata from the content and place it at the very top
 - Preserve ALL original code blocks exactly as written
 - Maintain ALL examples and implementation variants
 - Keep ALL technical details and parameters
