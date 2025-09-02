@@ -115,7 +115,7 @@ def setup_gemini():
         "temperature": 0.1,  # Low temperature for consistent formatting
         "top_p": 0.95,
         "top_k": 64,
-        "max_output_tokens": 32768,  # Gemini 2.5 Pro higher limit
+        "max_output_tokens": 100000,  # Gemini 2.5 Pro maximum limit (100K tokens)
     }
     
     safety_settings = [
